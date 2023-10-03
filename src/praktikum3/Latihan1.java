@@ -7,10 +7,10 @@ public class Latihan1 {
             Scanner input = new Scanner(System.in);
             System.out.println("Masukan bilangan yang berkelipatan 5 dan juga ganjil : ");
             int bilangan = input.nextInt();
-            if (bilangan % 5 == 0 && bilangan % 2 != 0) {
-                System.out.println("Program Started");
+            if (bilangan % 2 != 0) {
+                System.out.println("Bilangan Genap");
             } else {
-                System.out.println("Program Halted");
+                System.out.println("Bilangan Ganjil");
             }
         }
 }

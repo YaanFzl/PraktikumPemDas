@@ -36,7 +36,5 @@ public class Latihan4 {
                 System.out.println("Hasil Pembelian : Rp" + hargaSemangka);
             }
     }
-
-
     }
 }
